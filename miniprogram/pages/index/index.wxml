@@ -6,7 +6,7 @@
 <van-cell-group>
 	<block wx:for="{{tasks}}" wx:key="tasks">
 		<navigator url="../todoInfo/todoInfo?id={{item._id}}">
-			<van-cell title="{{item.title}}" is-link value="{{item.status === 'in-progress'?'待完成':'已完成'}}">
+			<van-cell title="{{item.title}}" is-link value="{{item.status === false?'待完成':'已完成'}}">
     </van-cell>
 		</navigator>
 	</block>

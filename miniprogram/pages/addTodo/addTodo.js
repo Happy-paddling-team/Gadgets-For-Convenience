@@ -31,7 +31,8 @@ Page({
       data:{
         title: event.detail.value.title,
         image:this.data.image,
-        location: this.pageData.locationObj
+        location: this.pageData.locationObj,
+        status: false
       }
     }).then (res=>{
       console.log(res._id)
