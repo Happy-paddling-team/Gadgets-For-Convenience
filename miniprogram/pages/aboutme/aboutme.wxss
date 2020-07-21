@@ -4,7 +4,7 @@
   height: 500rpx;
   background-color: #ccc;
   border-radius: 20rpx;
-  box-shadow: 2px 2px 2px #888888; /* 浏览器不支持的时候显示 */
+  box-shadow: 5px 5px 5px #888888; /* 浏览器不支持的时候显示 */
   background-image: radial-gradient(#fff, #ccc); 
   position: relative;
   margin-top: 30rpx;
