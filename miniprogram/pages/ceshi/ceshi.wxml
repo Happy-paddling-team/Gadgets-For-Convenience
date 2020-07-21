@@ -1,0 +1,5 @@
+  <movable-area class="movable-area">
+    <text>wasdafdsfasdf</text>
+    <movable-view class="movable-view" direction="all">
+    </movable-view>
+  </movable-area>

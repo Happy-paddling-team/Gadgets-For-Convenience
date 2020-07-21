@@ -32,12 +32,6 @@ Page({
       console.log (id);
       console.log (url);
     })
-    // todos.doc(options.id).get({
-    //   success(res)
-    //   {
-    //     console.log(res);
-    //   }
-    // })
   },
   viewLocation:function(){
     wx.openLocation({

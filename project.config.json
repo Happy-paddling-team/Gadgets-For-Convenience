@@ -20,7 +20,8 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"nodeModules": true
 	},
 	"appid": "wx2d691365b4565e7b",
 	"projectname": "Appprogram",
@@ -68,6 +69,12 @@
 					"name": "pages/todoInfo/todoInfo",
 					"pathName": "pages/todoInfo/todoInfo",
 					"query": "id=868b77555effd84d0048621243ba06cc",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/aboutme/aboutme",
+					"pathName": "pages/aboutme/aboutme",
 					"scene": null
 				}
 			]

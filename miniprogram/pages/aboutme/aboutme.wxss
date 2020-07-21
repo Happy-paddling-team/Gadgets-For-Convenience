@@ -1,0 +1,49 @@
+/* pages/aboutme/aboutme.wxss */
+.about-main{
+  width: 690rpx;
+  height: 500rpx;
+  background-color: #ccc;
+  border-radius: 20rpx;
+  box-shadow: 2px 2px 2px #888888; /* 浏览器不支持的时候显示 */
+  background-image: radial-gradient(#fff, #ccc); 
+  position: relative;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 50rpx;
+}
+.about-header{
+  font-size: 50rpx;
+  padding: 30rpx;
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.phone{
+  background-color: burlywood;
+  width: 55rpx;
+  height: 55rpx;
+  margin-left: 575rpx;
+  position: absolute;
+  border-radius: 100rpx;
+  bottom: 0;
+  padding: 10rpx;
+  padding-left: 15rpx;
+  margin-bottom: 20rpx;
+}
+.chat{
+  background-color: burlywood;
+  width: 55rpx;
+  height: 55rpx;
+  margin-left: 470rpx;
+  position: absolute;
+  border-radius: 100rpx;
+  bottom: 0;
+  padding: 10rpx;
+  padding-left: 15rpx;
+  margin-bottom: 20rpx;
+}
+.about{
+  height: 100%;
+  width: 100%;
+  background: url(https://tse1-mm.cn.bing.net/th/id/OIP.79HXz7CZBg0SMJO9ZMMUMgHaHa?pid=Api&rs=1);
+  position: absolute;
+}

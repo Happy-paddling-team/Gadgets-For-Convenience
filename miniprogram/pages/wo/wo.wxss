@@ -42,7 +42,8 @@
 }
 
 .userinfo-nickname {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  background-color:rgba(0,0,0,0.0)/*设置文字背景为全透明*/
 }
 .usermotto {
   margin-top: 200px;

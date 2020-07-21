@@ -17,37 +17,16 @@ Page({
       
     })
   },
-  tianjia:function(){
-    //加法云函数
-    // wx.cloud.callFunction({
-    //   name:"add",
-    //   data:{
-    //     a:10,
-    //     b:3
-    //   },
-    //   success:function(res){
-    //     console.log("请求成功",res)
-    //   },
-    //   fail:function(res){
-    //     console.log("请求失败",res)
-    //   }
-    // })
-    //获取openid
-    // wx.cloud.callFunction({
-    //   name:"getopenid",
-    //   success:function(res){
-    //     console.log("获取openid成功",res)
-    //   }
-    //   ,
-    //   fail:function(res){
-    //     console.log("获取openid失败",res)
-    //   }
-    // })
-  },
   order:function()
   {
     wx.navigateTo({
       url: '../woinfo/woinfo',
+    })
+  },
+  about:function()
+  {
+    wx.navigateTo({
+      url: '../aboutme/aboutme',
     })
   },
   onLoad: function () {

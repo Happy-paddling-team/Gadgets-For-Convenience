@@ -1,5 +1,6 @@
 {
   "pages": [
+   
     "pages/index2/index",
     "pages/index/index",
     "pages/addTodo/addTodo",
@@ -16,19 +17,21 @@
     "pages/remingbi/remingbi",
     "pages/youjia/youjia",
     "pages/resou/resou",
+    "pages/ceshi/ceshi",
     "pages/dianhua/dianhua",
     "pages/fanti/fanti",
     "pages/jintian/jintian",
     "pages/weather/weather",
     "pages/pengyouquan/pengyouquan",
     "pages/logs/logs",
+    "pages/aboutme/aboutme",
     "pages/chengyuzidian/chengyuzidian"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云待办",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "随身盒子",
     "navigationBarTextStyle": "black"
   },
   "usingComponents":{
@@ -51,7 +54,7 @@
       },
       {
         "pagePath": "pages/wo/wo",
-        "text": "我",
+        "text": "关于",
         "iconPath":"images_navigation/woxuanzhong1.png",
         "selectedIconPath":"images_navigation/woxuanzhong.png"
       }

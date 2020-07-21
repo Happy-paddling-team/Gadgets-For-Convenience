@@ -24,6 +24,7 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .userinfo, .uploader, .tunnel {
@@ -154,3 +155,4 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+

@@ -1,0 +1,7 @@
+<view class="about">
+  <text class="about-header">About</text>
+  <view class="about-main">
+    <van-icon class="chat" name="chat-o" size="50rpx" bind:click="chat" color="#363636"></van-icon>
+    <van-icon class="phone" name="phone-o" size="50rpx" bind:click="phone" color="#363636"></van-icon>
+  </view>
+</view>
